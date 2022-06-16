@@ -49,5 +49,5 @@ I began with installing bootstrap and then realized that this project is meant f
 
 - Website - [Paulette Zaldivar Flores](https://pzf.netlify.app/)
 - Frontend Mentor - [@Paulette](https://www.frontendmentor.io/profile/Paulette-Zaldivar-Flores)
-- Twitter - [@PauletteZald1](https://www.twitter.com/paulettezald1)
+- Twitter - [@PauletteZald1](https://twitter.com/PauletteZaldiv1)
 
