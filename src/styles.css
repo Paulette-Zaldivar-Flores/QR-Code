@@ -1,58 +1,84 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
-
-:root {
-  --White: hsl(0, 0%, 100%);
-  --Light-gray: hsl(212, 45%, 89%);
-  --Grayish-blue: hsl(220, 15%, 55%);
-  --Dark-blue: hsl(218, 44%, 22%);
-}
-* {
-  margin: 0%;
-  box-sizing: border-box;
-  font-family: "Outfit";
-}
 body {
-  background-color: var(--Light-gray);
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
 }
 
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: 21px;
+  padding: 10px 0;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+img {
+  border-radius: 12px;
+  object-fit: contain;
+  overflow: hidden;
+  width: 100%;
+}
 .container {
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
   align-items: center;
-  padding: 20px;
-  background-color: var(--);
-  border-radius: 25px;
-}
-.card {
-  width: 300px;
-  height: 500px;
-  background-color: var(--White);
-  border-radius: 20px;
+  display: flex;
+  height: 97vh;
+  justify-content: center;
 }
 
-.card .image img {
-  width: 300px;
-  height: 300px;
-  border-radius: 25px;
-  padding: 15px;
+.card {
+  background: hsl(0, 0%, 100%);
+  border-radius: 17px;
+  box-shadow: 0 0 100px hsl(218, 44%, 70%);
+  margin: auto;
+  padding: 17px;
+  max-width: 286px;
 }
 
 .card-text {
-  font-family: "Work Sans", sans-serif;
-  text-align: center;
-  padding: 0px, 30px, 20px, 30px;
+  margin: auto;
+  width: 85%;
 }
 
-.card-text h1 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.4;
+intro {
+  color: #0000ff;
 }
 
-.card-text p {
-  color: hsl(220, 15%, 55%);
-  padding-top: 15px;
-  font-size: 15px;
-  font-weight: 400;
+icons {
+  font-size: 75px;
+  padding: 5px 10px;
+  color: rgb(0, 0, 0);
+}
+
+#link a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+#link a:hover {
+  color: rgb(196, 157, 247);
+}
+
+#contact a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 30px;
+}
+#contact a:hover {
+  color: rgb(196, 157, 247);
+}
+#contact-me i {
+  font-size: 60px;
+  color: var(--primary-color);
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+#contact-me i:hover {
+  color: rgb(196, 157, 247);
 }
